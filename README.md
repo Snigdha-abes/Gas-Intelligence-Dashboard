@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+⛽ Cross-Chain Gas Tracker & Simulator
+This project is a dynamic, real-time dashboard designed to provide users with crucial insights into blockchain transaction costs. Built with a modern Next.js and TypeScript frontend, it simulates gas fees across multiple chains and visualizes Ethereum's gas price volatility.
 
-## Getting Started
 
-First, run the development server:
+✨ Core Features
+🎨 Professional UI/UX: Features a modern, aesthetically pleasing dark-mode interface with a glassmorphism effect, subtle animations, and a fully responsive design for all screen sizes.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+💰 Multi-Chain Gas Simulator: Allows users to estimate the USD cost of a transaction on Ethereum, Polygon, and Arbitrum by simply entering an amount of ETH.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+📈 Real-Time Volatility Chart: An interactive candlestick chart, powered by lightweight-charts, visualizes Ethereum's gas price fluctuations over 15-minute intervals.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+🔄 Live Data Polling: The application fetches the latest gas prices periodically, ensuring the chart data remains fresh and relevant for users.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+⚙️ Full-Stack Architecture: Built on a standard and scalable decoupled architecture, with a Next.js frontend and a Node.js/Express backend.
 
-## Learn More
+🛠️ Technology Stack
+This project was built using a modern set of tools and libraries to deliver a robust and high-quality user experience.
 
-To learn more about Next.js, take a look at the following resources:
+Category
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Technology
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Frontend
 
-## Deploy on Vercel
+Next.js, React, TypeScript, Tailwind CSS
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Charting
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Lightweight Charts™
+
+Backend
+
+Node.js, Express.js
+
+API Communication
+
+Axios
+
+Blockchain Interaction
+
+Ethers.js (used in the backend to communicate with RPC endpoints)
+
+🏗️ Architectural Decisions
+Data Fetching Strategy: A polling mechanism (setInterval with axios) was implemented for the real-time chart to fetch data every 30 seconds. This approach provides near real-time data effectively and is simpler to implement than a WebSocket connection for the scope of this project.
+
+State Management: State is managed using React's native useState and useRef hooks. For a single-page application of this complexity, this is a lightweight and efficient solution that avoids the overhead of external libraries like Zustand or Redux.
+
+UI/UX Philosophy: The user interface was built with Tailwind CSS and features a dark-mode, "glassmorphism" theme. This modern design choice enhances visual appeal and improves the overall user experience.
+
+🔮 Potential Future Enhancements
+Real-Time WebSocket Integration: Upgrade the data fetching mechanism to use WebSocket providers for instantaneous, push-based data updates.
+
+Expanded Chain Support: Integrate additional popular EVM chains into the simulator and charting components.
+
+Historical Data Analysis: Implement a feature allowing users to select and view historical gas price data from specific date ranges.
