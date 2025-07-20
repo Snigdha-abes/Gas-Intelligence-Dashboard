@@ -3,9 +3,18 @@
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 
+interface GasDataItem {
+  chain: string;
+  gasPriceGwei: number;
+  gasLimit: number;
+  gasCostInEth: number;
+  gasCostInUsd: number;
+  error?: string;
+}
+
 export default function GasSimulatorPage() {
   const [ethAmount, setEthAmount] = useState('0.01');
-  const [data, setData] = useState([]);
+  const [data, setData] = useState<GasDataItem[]>([]);
   const [loading, setLoading] = useState(false);
 
   const simulateGas = async () => {
@@ -33,16 +42,17 @@ export default function GasSimulatorPage() {
       const response = await axios.get('http://localhost:5000/api/gas-history');
       const entries = response.data;
 
-      // eslint-disable-next-line @typescript-eslint/no-explicit-any
-      const flattened = Object.entries(entries).flatMap(([chain, datapoints]: [string, any]) => {
-        if (!Array.isArray(datapoints)) return [];
-        return datapoints.map((point) => ({
-          chain,
-          ...point,
-        }));
-      });
+      const flattened = Object.entries(entries).flatMap(
+        ([chain, datapoints]: [string, unknown]) => {
+          if (!Array.isArray(datapoints)) return [];
+          return datapoints.map((point) => ({
+            chain,
+            ...(point as Record<string, unknown>),
+          }));
+        }
+      );
 
-      console.log('Fetched history:', flattened); // For now just logging
+      console.log('Fetched history:', flattened);
     } catch (error) {
       console.error('❌ Failed to fetch gas history:', error);
     }
