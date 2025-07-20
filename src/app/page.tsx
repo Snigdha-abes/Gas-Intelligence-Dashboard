@@ -1,26 +1,12 @@
 'use client';
 
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useState } from 'react';
 import axios from 'axios';
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-import {
-  createChart,
-  type IChartApi,
-  type ISeriesApi,
-  type LineData,
-  type Time,
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  ColorType,
-} from 'lightweight-charts';
 
 export default function GasSimulatorPage() {
   const [ethAmount, setEthAmount] = useState('0.01');
-  const [data, setData] = useState<any[]>([]);
+  const [data, setData] = useState([]);
   const [loading, setLoading] = useState(false);
-  const [history, setHistory] = useState<any[]>([]);
-
-  const chartRef = useRef<HTMLDivElement>(null);
-  const chartInstanceRef = useRef<IChartApi | null>(null);
 
   const simulateGas = async () => {
     try {
@@ -48,16 +34,15 @@ export default function GasSimulatorPage() {
       const entries = response.data;
 
       // eslint-disable-next-line @typescript-eslint/no-explicit-any
-      const flattened: any[] = Object.entries(entries).flatMap(([chain, datapoints]: [string, any]) => {
+      const flattened = Object.entries(entries).flatMap(([chain, datapoints]: [string, any]) => {
         if (!Array.isArray(datapoints)) return [];
-
-        return datapoints.map((point: any) => ({
+        return datapoints.map((point) => ({
           chain,
           ...point,
         }));
       });
 
-      setHistory(flattened);
+      console.log('Fetched history:', flattened); // For now just logging
     } catch (error) {
       console.error('❌ Failed to fetch gas history:', error);
     }
