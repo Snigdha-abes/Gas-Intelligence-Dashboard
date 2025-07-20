@@ -31,10 +31,15 @@ interface SimulationResult {
 type ApiHistoryResponse = Record<string, number>;
 type Theme = 'light' | 'dark';
 
-// ------------------ CONFIGURATION ------------------
-// Use an environment variable for the API URL.
-// This is crucial for deployment.
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5000";
+// Props for the SimulatorPanel component
+interface SimulatorPanelProps {
+    ethAmount: string;
+    setEthAmount: React.Dispatch<React.SetStateAction<string>>;
+    loading: boolean;
+    simulateGas: () => Promise<void>;
+    hasSimulated: boolean;
+    simulationResult: SimulationResult[];
+}
 
 
 // ------------------ THEME MANAGEMENT ------------------
@@ -147,6 +152,7 @@ function DashboardContent() {
   const [simulationResult, setSimulationResult] = useState<SimulationResult[]>([]);
   const [historicalData, setHistoricalData] = useState<GasDataPoint[]>([]);
   const [loading, setLoading] = useState(false);
+  const [isChartLoading, setIsChartLoading] = useState(true);
   const [toast, setToast] = useState("");
 
   const candlestickChartRef = useRef<HTMLDivElement>(null);
@@ -155,10 +161,11 @@ function DashboardContent() {
   useEffect(() => {
     const fetchHistory = async () => {
       try {
-        const res = await axios.get<ApiHistoryResponse>(`${API_BASE_URL}/api/gas-history`);
+        const res = await axios.get<ApiHistoryResponse>(`${process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000'}/api/gas-history`);
         const now = new Date().toISOString();
         const pts = Object.entries(res.data).map(([chain, cost]) => ({ chain, gasCostInUsd: cost, timestamp: now }));
         setHistoricalData(d => [...d, ...pts]);
+        if(isChartLoading) setIsChartLoading(false);
       } catch {
         setToast("❌ History fetch failed");
       }
@@ -171,7 +178,7 @@ function DashboardContent() {
   const simulateGas = async () => {
     setLoading(true);
     try {
-      const res = await axios.post<{ data: SimulationResult[] }>(`${API_BASE_URL}/api/v1/simulate`, { ethAmount: parseFloat(ethAmount) });
+      const res = await axios.post<{ data: SimulationResult[] }>(`${process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000'}/api/v1/simulate`, { ethAmount: parseFloat(ethAmount) });
       setSimulationResult(res.data.data || []);
       setToast("✅ Simulation successful");
     } catch {
@@ -195,11 +202,11 @@ function DashboardContent() {
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             <div className="lg:col-span-1 space-y-8">
-                <SimulatorPanel ethAmount={ethAmount} setEthAmount={setEthAmount} loading={loading} simulateGas={simulateGas} simulationResult={simulationResult} />
-                <LiveGasPanel historicalData={historicalData} barChartRef={barChartRef} />
+                <SimulatorPanel ethAmount={ethAmount} setEthAmount={setEthAmount} loading={loading} simulateGas={simulateGas} simulationResult={simulationResult} hasSimulated={simulationResult.length > 0 || loading} />
+                <LiveGasPanel historicalData={historicalData} barChartRef={barChartRef} isChartLoading={isChartLoading} />
             </div>
             <div className="lg:col-span-2">
-                <CandlestickChartPanel chartRef={candlestickChartRef} historicalData={historicalData} />
+                <CandlestickChartPanel chartRef={candlestickChartRef} historicalData={historicalData} isChartLoading={isChartLoading} />
             </div>
         </div>
     </main>
@@ -208,7 +215,8 @@ function DashboardContent() {
 
 // ------------------ LOGIC-HEAVY COMPONENTS ------------------
 
-function SimulatorPanel({ ethAmount, setEthAmount, loading, simulateGas, simulationResult }: any) {
+function SimulatorPanel({ ethAmount, setEthAmount, loading, simulateGas, simulationResult, hasSimulated }: SimulatorPanelProps) {
+    const { theme } = useTheme();
     return (
         <div className="bg-white dark:bg-gray-900 p-6 rounded-xl shadow-md transition-colors duration-300 border border-gray-200 dark:border-gray-800">
             <h2 className="text-xl font-semibold mb-4">🔍 Simulate Transaction</h2>
@@ -221,33 +229,39 @@ function SimulatorPanel({ ethAmount, setEthAmount, loading, simulateGas, simulat
                     {loading ? "Simulating..." : "🚀 Simulate Cost"}
                 </button>
             </div>
-            {simulationResult.length > 0 && (
-                <div className="mt-6 space-y-2">
-                    <div className="grid grid-cols-3 gap-4 px-2 text-sm font-semibold text-gray-500 dark:text-gray-400 border-b border-gray-200 dark:border-gray-700 pb-2">
-                        <span>Chain</span>
-                        <span className="text-center">Gas Price</span>
-                        <span className="text-right">Est. Cost</span>
-                    </div>
-                    {simulationResult.map((r: SimulationResult) => (
-                         <div key={r.chain} className="grid grid-cols-3 gap-4 items-center py-2 px-2 rounded-lg transition-colors hover:bg-gray-50 dark:hover:bg-gray-800/50">
-                            <div className="font-semibold text-gray-800 dark:text-white">{r.chain}</div>
-                            {r.gasCostInUsd ? (
-                                <>
-                                    <div className="text-sm text-gray-600 dark:text-gray-300 text-center">{parseFloat(r.gasPriceGwei).toFixed(2)} Gwei</div>
-                                    <div className="text-base font-bold text-green-500 text-right">${r.gasCostInUsd}</div>
-                                </>
-                            ) : (
-                                <div className="col-span-2 text-sm text-red-500 text-right">❌ {r.error || "Unavailable"}</div>
-                            )}
+            {hasSimulated && (
+                <div className="mt-6">
+                    {loading ? (
+                        <div className="flex justify-center p-10"><Spinner theme={theme}/></div>
+                    ) : (
+                        <div className="space-y-2">
+                            <div className="grid grid-cols-3 gap-4 px-2 text-sm font-semibold text-gray-500 dark:text-gray-400 border-b border-gray-200 dark:border-gray-700 pb-2">
+                                <span>Chain</span>
+                                <span className="text-center">Gas Price</span>
+                                <span className="text-right">Est. Cost</span>
+                            </div>
+                            {simulationResult.map((r: SimulationResult) => (
+                                 <div key={r.chain} className="grid grid-cols-3 gap-4 items-center py-2 px-2 rounded-lg transition-colors hover:bg-gray-50 dark:hover:bg-gray-800/50">
+                                    <div className="font-semibold text-gray-800 dark:text-white">{r.chain}</div>
+                                    {r.gasCostInUsd ? (
+                                        <>
+                                            <div className="text-sm text-gray-600 dark:text-gray-300 text-center">{parseFloat(r.gasPriceGwei).toFixed(2)} Gwei</div>
+                                            <div className="text-base font-bold text-green-500 text-right">${r.gasCostInUsd}</div>
+                                        </>
+                                    ) : (
+                                        <div className="col-span-2 text-sm text-red-500 text-right">❌ {r.error || "Unavailable"}</div>
+                                    )}
+                                </div>
+                            ))}
                         </div>
-                    ))}
+                    )}
                 </div>
             )}
         </div>
     );
 }
 
-function LiveGasPanel({ historicalData, barChartRef }: { historicalData: GasDataPoint[]; barChartRef: React.RefObject<HTMLDivElement> }) {
+function LiveGasPanel({ historicalData, barChartRef, isChartLoading }: { historicalData: GasDataPoint[]; barChartRef: React.RefObject<HTMLDivElement>; isChartLoading: boolean }) {
     const { theme } = useTheme();
     const chartApiRef = useRef<IChartApi | null>(null);
     const barSeriesRef = useRef<ISeriesApi<"Bar"> | null>(null);
@@ -286,12 +300,16 @@ function LiveGasPanel({ historicalData, barChartRef }: { historicalData: GasData
     return (
         <div className="bg-white dark:bg-gray-900 p-6 rounded-xl shadow-md transition-colors duration-300 border border-gray-200 dark:border-gray-800">
             <h2 className="text-xl font-semibold mb-4">⚡ Live Gas Prices (USD)</h2>
-            <div ref={barChartRef} className="w-full h-[250px]" />
+            {isChartLoading ? (
+                <div className="h-[250px] flex justify-center items-center"><Spinner theme={theme}/></div>
+            ) : (
+                <div ref={barChartRef} className="w-full h-[250px]" />
+            )}
         </div>
     );
 }
 
-function CandlestickChartPanel({ chartRef, historicalData }: { chartRef: React.RefObject<HTMLDivElement>; historicalData: GasDataPoint[] }) {
+function CandlestickChartPanel({ chartRef, historicalData, isChartLoading }: { chartRef: React.RefObject<HTMLDivElement>; historicalData: GasDataPoint[]; isChartLoading: boolean }) {
     const { theme } = useTheme();
     const chartApiRef = useRef<IChartApi | null>(null);
     const candleRef = useRef<ISeriesApi<"Candlestick"> | null>(null);
@@ -345,7 +363,11 @@ function CandlestickChartPanel({ chartRef, historicalData }: { chartRef: React.R
     return (
         <div className="bg-white dark:bg-gray-900 p-4 sm:p-6 rounded-xl shadow-md transition-colors duration-300 h-full border border-gray-200 dark:border-gray-800">
             <h2 className="text-xl font-semibold mb-4">📈 Ethereum Gas History (15-min Candles)</h2>
-            <div ref={chartRef} className="w-full h-[400px]" />
+            {isChartLoading ? (
+                <div className="h-[400px] flex justify-center items-center"><Spinner theme={theme} /></div>
+            ) : (
+                <div ref={chartRef} className="w-full h-[400px]" />
+            )}
         </div>
     );
 }
