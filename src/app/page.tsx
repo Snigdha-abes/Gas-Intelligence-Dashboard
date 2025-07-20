@@ -79,7 +79,8 @@ function ResultRow({ result }: { result: SimulationResult }) {
 }
 
 
-// Panel for the transaction simulator and its results
+
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 function SimulatorPanel({ ethAmount, setEthAmount, loading, simulateGas, hasSimulated, simulationResult, darkMode }: any) {
     return (
         <div className="lg:col-span-1 space-y-8">
