@@ -1,0 +1,1586 @@
+[
+  {
+    "chain": "Ethereum",
+    "gasPrice": 5.84747965,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000123",
+    "gasCostUsd": "3.36",
+    "timestamp": "2025-07-18T08:36:21.665Z"
+  },
+  {
+    "chain": "Polygon",
+    "gasPrice": 28.000000291,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000588",
+    "gasCostUsd": "16.08",
+    "timestamp": "2025-07-18T08:36:21.673Z"
+  },
+  {
+    "chain": "Arbitrum",
+    "gasPrice": 0.029188,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000001",
+    "gasCostUsd": "0.03",
+    "timestamp": "2025-07-18T08:36:21.678Z"
+  },
+  {
+    "chain": "Ethereum",
+    "gasPrice": 0.650076142,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000014",
+    "gasCostUsd": "0.38",
+    "timestamp": "2025-07-20T07:16:58.078Z"
+  },
+  {
+    "chain": "Polygon",
+    "gasPrice": 26.000000084,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000546",
+    "gasCostUsd": "14.93",
+    "timestamp": "2025-07-20T07:16:58.083Z"
+  },
+  {
+    "chain": "Arbitrum",
+    "gasPrice": 0.01,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000000",
+    "gasCostUsd": "0.00",
+    "timestamp": "2025-07-20T07:16:58.083Z"
+  },
+  {
+    "chain": "Ethereum",
+    "gasPrice": 0.652953064,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000014",
+    "gasCostUsd": "0.38",
+    "timestamp": "2025-07-20T07:22:03.728Z"
+  },
+  {
+    "chain": "Polygon",
+    "gasPrice": 26.000000088,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000546",
+    "gasCostUsd": "14.93",
+    "timestamp": "2025-07-20T07:22:03.730Z"
+  },
+  {
+    "chain": "Arbitrum",
+    "gasPrice": 0.01,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000000",
+    "gasCostUsd": "0.00",
+    "timestamp": "2025-07-20T07:22:03.731Z"
+  },
+  {
+    "chain": "Ethereum",
+    "gasPrice": 0.79325344,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000017",
+    "gasCostUsd": "0.46",
+    "timestamp": "2025-07-20T07:33:57.340Z"
+  },
+  {
+    "chain": "Polygon",
+    "gasPrice": 26.000000088,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000546",
+    "gasCostUsd": "14.93",
+    "timestamp": "2025-07-20T07:33:57.345Z"
+  },
+  {
+    "chain": "Arbitrum",
+    "gasPrice": 0.01,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000000",
+    "gasCostUsd": "0.00",
+    "timestamp": "2025-07-20T07:33:57.347Z"
+  },
+  {
+    "chain": "Ethereum",
+    "gasPrice": 1.101643033,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000023",
+    "gasCostUsd": "0.63",
+    "timestamp": "2025-07-20T07:48:27.088Z"
+  },
+  {
+    "chain": "Polygon",
+    "gasPrice": 26.00000009,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000546",
+    "gasCostUsd": "14.93",
+    "timestamp": "2025-07-20T07:48:27.092Z"
+  },
+  {
+    "chain": "Arbitrum",
+    "gasPrice": 0.010582,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000000",
+    "gasCostUsd": "0.00",
+    "timestamp": "2025-07-20T07:48:27.094Z"
+  },
+  {
+    "chain": "Ethereum",
+    "gasPrice": 1.034376311,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000022",
+    "gasCostUsd": "0.60",
+    "timestamp": "2025-07-20T07:49:59.373Z"
+  },
+  {
+    "chain": "Polygon",
+    "gasPrice": 25.250000117,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000530",
+    "gasCostUsd": "14.49",
+    "timestamp": "2025-07-20T07:49:59.378Z"
+  },
+  {
+    "chain": "Arbitrum",
+    "gasPrice": 0.01,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000000",
+    "gasCostUsd": "0.00",
+    "timestamp": "2025-07-20T07:49:59.381Z"
+  },
+  {
+    "chain": "Ethereum",
+    "gasPrice": 0.943489801,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000020",
+    "gasCostUsd": "0.55",
+    "timestamp": "2025-07-20T07:57:22.858Z"
+  },
+  {
+    "chain": "Polygon",
+    "gasPrice": 26.000000088,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000546",
+    "gasCostUsd": "14.93",
+    "timestamp": "2025-07-20T07:57:22.863Z"
+  },
+  {
+    "chain": "Arbitrum",
+    "gasPrice": 0.01,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000000",
+    "gasCostUsd": "0.00",
+    "timestamp": "2025-07-20T07:57:22.865Z"
+  },
+  {
+    "chain": "Ethereum",
+    "gasPrice": 0.749539277,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000016",
+    "gasCostUsd": "0.44",
+    "timestamp": "2025-07-20T08:04:01.336Z"
+  },
+  {
+    "chain": "Polygon",
+    "gasPrice": 26.00000009,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000546",
+    "gasCostUsd": "14.93",
+    "timestamp": "2025-07-20T08:04:01.341Z"
+  },
+  {
+    "chain": "Arbitrum",
+    "gasPrice": 0.01,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000000",
+    "gasCostUsd": "0.00",
+    "timestamp": "2025-07-20T08:04:01.343Z"
+  },
+  {
+    "chain": "Ethereum",
+    "gasPrice": 0.73909692,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000016",
+    "gasCostUsd": "0.44",
+    "timestamp": "2025-07-20T08:13:47.275Z"
+  },
+  {
+    "chain": "Polygon",
+    "gasPrice": 26.000000088,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000546",
+    "gasCostUsd": "14.93",
+    "timestamp": "2025-07-20T08:13:47.279Z"
+  },
+  {
+    "chain": "Arbitrum",
+    "gasPrice": 0.01,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000000",
+    "gasCostUsd": "0.00",
+    "timestamp": "2025-07-20T08:13:47.282Z"
+  },
+  {
+    "chain": "Ethereum",
+    "gasPrice": 0.732397532,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000015",
+    "gasCostUsd": "0.41",
+    "timestamp": "2025-07-20T08:15:16.715Z"
+  },
+  {
+    "chain": "Polygon",
+    "gasPrice": 26.000000088,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000546",
+    "gasCostUsd": "14.93",
+    "timestamp": "2025-07-20T08:15:16.717Z"
+  },
+  {
+    "chain": "Arbitrum",
+    "gasPrice": 0.01,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000000",
+    "gasCostUsd": "0.00",
+    "timestamp": "2025-07-20T08:15:16.719Z"
+  },
+  {
+    "chain": "Ethereum",
+    "gasPrice": 0.705547074,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000015",
+    "gasCostUsd": "0.41",
+    "timestamp": "2025-07-20T08:20:52.916Z"
+  },
+  {
+    "chain": "Polygon",
+    "gasPrice": 26.000000088,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000546",
+    "gasCostUsd": "14.93",
+    "timestamp": "2025-07-20T08:20:52.920Z"
+  },
+  {
+    "chain": "Arbitrum",
+    "gasPrice": 0.01,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000000",
+    "gasCostUsd": "0.00",
+    "timestamp": "2025-07-20T08:20:52.921Z"
+  },
+  {
+    "chain": "Ethereum",
+    "gasPrice": 0.65899244,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000014",
+    "gasCostUsd": "0.38",
+    "timestamp": "2025-07-20T08:26:10.174Z"
+  },
+  {
+    "chain": "Polygon",
+    "gasPrice": 26.000000088,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000546",
+    "gasCostUsd": "14.93",
+    "timestamp": "2025-07-20T08:26:10.180Z"
+  },
+  {
+    "chain": "Arbitrum",
+    "gasPrice": 0.01,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000000",
+    "gasCostUsd": "0.00",
+    "timestamp": "2025-07-20T08:26:10.182Z"
+  },
+  {
+    "chain": "Ethereum",
+    "gasPrice": 0.660459832,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000014",
+    "gasCostUsd": "0.38",
+    "timestamp": "2025-07-20T08:28:26.282Z"
+  },
+  {
+    "chain": "Polygon",
+    "gasPrice": 26.000000088,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000546",
+    "gasCostUsd": "14.93",
+    "timestamp": "2025-07-20T08:28:26.286Z"
+  },
+  {
+    "chain": "Arbitrum",
+    "gasPrice": 0.01,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000000",
+    "gasCostUsd": "0.00",
+    "timestamp": "2025-07-20T08:28:26.289Z"
+  },
+  {
+    "chain": "Ethereum",
+    "gasPrice": 0.913229404,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000019",
+    "gasCostUsd": "0.52",
+    "timestamp": "2025-07-20T11:20:16.047Z"
+  },
+  {
+    "chain": "Polygon",
+    "gasPrice": 26.000000088,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000546",
+    "gasCostUsd": "14.93",
+    "timestamp": "2025-07-20T11:20:16.051Z"
+  },
+  {
+    "chain": "Arbitrum",
+    "gasPrice": 0.01,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000000",
+    "gasCostUsd": "0.00",
+    "timestamp": "2025-07-20T11:20:16.055Z"
+  },
+  {
+    "chain": "Ethereum",
+    "gasPrice": 0.933192356,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000020",
+    "gasCostUsd": "0.55",
+    "timestamp": "2025-07-20T11:22:01.583Z"
+  },
+  {
+    "chain": "Polygon",
+    "gasPrice": 26.000000088,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000546",
+    "gasCostUsd": "14.93",
+    "timestamp": "2025-07-20T11:22:01.588Z"
+  },
+  {
+    "chain": "Arbitrum",
+    "gasPrice": 0.020405,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000000",
+    "gasCostUsd": "0.00",
+    "timestamp": "2025-07-20T11:22:01.595Z"
+  },
+  {
+    "chain": "Ethereum",
+    "gasPrice": 2.487427373,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000052",
+    "gasCostUsd": "1.42",
+    "timestamp": "2025-07-20T11:53:15.815Z"
+  },
+  {
+    "chain": "Polygon",
+    "gasPrice": 26.000000084,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000546",
+    "gasCostUsd": "14.93",
+    "timestamp": "2025-07-20T11:53:15.820Z"
+  },
+  {
+    "chain": "Arbitrum",
+    "gasPrice": 0.062554,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000001",
+    "gasCostUsd": "0.03",
+    "timestamp": "2025-07-20T11:53:15.823Z"
+  },
+  {
+    "chain": "Ethereum",
+    "gasPrice": 2.207232698,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000046",
+    "gasCostUsd": "1.26",
+    "timestamp": "2025-07-20T11:58:45.420Z"
+  },
+  {
+    "chain": "Polygon",
+    "gasPrice": 26.000000088,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000546",
+    "gasCostUsd": "14.93",
+    "timestamp": "2025-07-20T11:58:45.426Z"
+  },
+  {
+    "chain": "Arbitrum",
+    "gasPrice": 0.029542,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000001",
+    "gasCostUsd": "0.03",
+    "timestamp": "2025-07-20T11:58:45.430Z"
+  },
+  {
+    "chain": "Ethereum",
+    "gasPrice": 2.155693149,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000045",
+    "gasCostUsd": "1.23",
+    "timestamp": "2025-07-20T12:00:02.566Z"
+  },
+  {
+    "chain": "Polygon",
+    "gasPrice": 26.000000084,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000546",
+    "gasCostUsd": "14.93",
+    "timestamp": "2025-07-20T12:00:02.572Z"
+  },
+  {
+    "chain": "Arbitrum",
+    "gasPrice": 0.026983,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000001",
+    "gasCostUsd": "0.03",
+    "timestamp": "2025-07-20T12:00:02.576Z"
+  },
+  {
+    "chain": "Ethereum",
+    "gasPrice": 1.89935833,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000040",
+    "gasCostUsd": "1.09",
+    "timestamp": "2025-07-20T12:24:18.529Z"
+  },
+  {
+    "chain": "Polygon",
+    "gasPrice": 26.000000088,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000546",
+    "gasCostUsd": "14.93",
+    "timestamp": "2025-07-20T12:24:18.531Z"
+  },
+  {
+    "chain": "Arbitrum",
+    "gasPrice": 0.010892,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000000",
+    "gasCostUsd": "0.00",
+    "timestamp": "2025-07-20T12:24:18.532Z"
+  },
+  {
+    "chain": "Ethereum",
+    "gasPrice": 1.873048701,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000039",
+    "gasCostUsd": "1.07",
+    "timestamp": "2025-07-20T12:25:52.354Z"
+  },
+  {
+    "chain": "Polygon",
+    "gasPrice": 25.877551196,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000543",
+    "gasCostUsd": "14.85",
+    "timestamp": "2025-07-20T12:25:52.356Z"
+  },
+  {
+    "chain": "Arbitrum",
+    "gasPrice": 0.011515,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000000",
+    "gasCostUsd": "0.00",
+    "timestamp": "2025-07-20T12:25:52.357Z"
+  },
+  {
+    "chain": "Ethereum",
+    "gasPrice": 1.586333316,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000033",
+    "gasCostUsd": "0.90",
+    "timestamp": "2025-07-20T12:37:55.816Z"
+  },
+  {
+    "chain": "Polygon",
+    "gasPrice": 25.750000135,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000541",
+    "gasCostUsd": "14.80",
+    "timestamp": "2025-07-20T12:37:55.820Z"
+  },
+  {
+    "chain": "Arbitrum",
+    "gasPrice": 0.01,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000000",
+    "gasCostUsd": "0.00",
+    "timestamp": "2025-07-20T12:37:55.822Z"
+  },
+  {
+    "chain": "Ethereum",
+    "gasPrice": 1.459224561,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000031",
+    "gasCostUsd": "0.85",
+    "timestamp": "2025-07-20T12:45:45.448Z"
+  },
+  {
+    "chain": "Polygon",
+    "gasPrice": 26.000000088,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000546",
+    "gasCostUsd": "14.93",
+    "timestamp": "2025-07-20T12:45:45.449Z"
+  },
+  {
+    "chain": "Arbitrum",
+    "gasPrice": 0.01,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000000",
+    "gasCostUsd": "0.00",
+    "timestamp": "2025-07-20T12:45:45.450Z"
+  },
+  {
+    "chain": "Ethereum",
+    "gasPrice": 1.38008952,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000029",
+    "gasCostUsd": "0.79",
+    "timestamp": "2025-07-20T12:47:42.043Z"
+  },
+  {
+    "chain": "Polygon",
+    "gasPrice": 26.000000088,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000546",
+    "gasCostUsd": "14.93",
+    "timestamp": "2025-07-20T12:47:42.044Z"
+  },
+  {
+    "chain": "Arbitrum",
+    "gasPrice": 0.01,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000000",
+    "gasCostUsd": "0.00",
+    "timestamp": "2025-07-20T12:47:42.046Z"
+  },
+  {
+    "chain": "Ethereum",
+    "gasPrice": 1.307402087,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000027",
+    "gasCostUsd": "0.74",
+    "timestamp": "2025-07-20T12:49:37.939Z"
+  },
+  {
+    "chain": "Polygon",
+    "gasPrice": 26.000000088,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000546",
+    "gasCostUsd": "14.93",
+    "timestamp": "2025-07-20T12:49:37.940Z"
+  },
+  {
+    "chain": "Arbitrum",
+    "gasPrice": 0.01,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000000",
+    "gasCostUsd": "0.00",
+    "timestamp": "2025-07-20T12:49:37.942Z"
+  },
+  {
+    "chain": "Ethereum",
+    "gasPrice": 1.527909728,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000032",
+    "gasCostUsd": "0.88",
+    "timestamp": "2025-07-20T12:54:20.297Z"
+  },
+  {
+    "chain": "Polygon",
+    "gasPrice": 25.750000134,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000541",
+    "gasCostUsd": "14.80",
+    "timestamp": "2025-07-20T12:54:20.299Z"
+  },
+  {
+    "chain": "Arbitrum",
+    "gasPrice": 0.01122,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000000",
+    "gasCostUsd": "0.00",
+    "timestamp": "2025-07-20T12:54:20.300Z"
+  },
+  {
+    "chain": "Ethereum",
+    "gasPrice": 1.650490063,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000035",
+    "gasCostUsd": "0.96",
+    "timestamp": "2025-07-20T12:55:26.092Z"
+  },
+  {
+    "chain": "Polygon",
+    "gasPrice": 26.000000088,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000546",
+    "gasCostUsd": "14.93",
+    "timestamp": "2025-07-20T12:55:26.094Z"
+  },
+  {
+    "chain": "Arbitrum",
+    "gasPrice": 0.010294,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000000",
+    "gasCostUsd": "0.00",
+    "timestamp": "2025-07-20T12:55:26.096Z"
+  },
+  {
+    "chain": "Ethereum",
+    "gasPrice": 1.473793159,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000031",
+    "gasCostUsd": "0.85",
+    "timestamp": "2025-07-20T13:00:49.524Z"
+  },
+  {
+    "chain": "Polygon",
+    "gasPrice": 26.000000088,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000546",
+    "gasCostUsd": "14.93",
+    "timestamp": "2025-07-20T13:00:49.529Z"
+  },
+  {
+    "chain": "Arbitrum",
+    "gasPrice": 0.01,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000000",
+    "gasCostUsd": "0.00",
+    "timestamp": "2025-07-20T13:00:49.530Z"
+  },
+  {
+    "chain": "Ethereum",
+    "gasPrice": 1.376105337,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000029",
+    "gasCostUsd": "-0.79",
+    "timestamp": "2025-07-20T13:01:27.245Z"
+  },
+  {
+    "chain": "Polygon",
+    "gasPrice": 25.00000014,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000525",
+    "gasCostUsd": "-14.36",
+    "timestamp": "2025-07-20T13:01:27.246Z"
+  },
+  {
+    "chain": "Arbitrum",
+    "gasPrice": 0.01,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000000",
+    "gasCostUsd": "0.00",
+    "timestamp": "2025-07-20T13:01:27.247Z"
+  },
+  {
+    "chain": "Ethereum",
+    "gasPrice": 1.696751633,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000036",
+    "gasCostUsd": "0.98",
+    "timestamp": "2025-07-20T13:02:46.761Z"
+  },
+  {
+    "chain": "Polygon",
+    "gasPrice": 26.000000088,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000546",
+    "gasCostUsd": "14.93",
+    "timestamp": "2025-07-20T13:02:46.762Z"
+  },
+  {
+    "chain": "Arbitrum",
+    "gasPrice": 0.01,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000000",
+    "gasCostUsd": "0.00",
+    "timestamp": "2025-07-20T13:02:46.763Z"
+  },
+  {
+    "chain": "Ethereum",
+    "gasPrice": 1.716136545,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000036",
+    "gasCostUsd": "0.98",
+    "timestamp": "2025-07-20T13:07:00.304Z"
+  },
+  {
+    "chain": "Polygon",
+    "gasPrice": 26.000000088,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000546",
+    "gasCostUsd": "14.93",
+    "timestamp": "2025-07-20T13:07:00.309Z"
+  },
+  {
+    "chain": "Arbitrum",
+    "gasPrice": 0.01,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000000",
+    "gasCostUsd": "0.00",
+    "timestamp": "2025-07-20T13:07:00.311Z"
+  },
+  {
+    "chain": "Ethereum",
+    "gasPrice": 2.062790236,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000043",
+    "gasCostUsd": "1.18",
+    "timestamp": "2025-07-20T13:15:05.904Z"
+  },
+  {
+    "chain": "Polygon",
+    "gasPrice": 26.000000088,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000546",
+    "gasCostUsd": "14.93",
+    "timestamp": "2025-07-20T13:15:05.907Z"
+  },
+  {
+    "chain": "Arbitrum",
+    "gasPrice": 0.01,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000000",
+    "gasCostUsd": "0.00",
+    "timestamp": "2025-07-20T13:15:05.908Z"
+  },
+  {
+    "chain": "Ethereum",
+    "gasPrice": 2.312940643,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000049",
+    "gasCostUsd": "1.47",
+    "timestamp": "2025-07-20T13:15:47.472Z"
+  },
+  {
+    "chain": "Polygon",
+    "gasPrice": 25.521000004,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000536",
+    "gasCostUsd": "16.12",
+    "timestamp": "2025-07-20T13:15:47.474Z"
+  },
+  {
+    "chain": "Arbitrum",
+    "gasPrice": 0.01,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000000",
+    "gasCostUsd": "0.00",
+    "timestamp": "2025-07-20T13:15:47.475Z"
+  },
+  {
+    "chain": "Ethereum",
+    "gasPrice": 1.944407122,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000041",
+    "gasCostUsd": "1.12",
+    "timestamp": "2025-07-20T13:19:14.096Z"
+  },
+  {
+    "chain": "Polygon",
+    "gasPrice": 26.000000088,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000546",
+    "gasCostUsd": "14.93",
+    "timestamp": "2025-07-20T13:19:14.098Z"
+  },
+  {
+    "chain": "Arbitrum",
+    "gasPrice": 0.01,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000000",
+    "gasCostUsd": "0.00",
+    "timestamp": "2025-07-20T13:19:14.099Z"
+  },
+  {
+    "chain": "Ethereum",
+    "gasPrice": 1.658493074,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000035",
+    "gasCostUsd": "0.96",
+    "timestamp": "2025-07-20T13:26:33.958Z"
+  },
+  {
+    "chain": "Polygon",
+    "gasPrice": 26.000000088,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000546",
+    "gasCostUsd": "14.93",
+    "timestamp": "2025-07-20T13:26:33.961Z"
+  },
+  {
+    "chain": "Arbitrum",
+    "gasPrice": 0.01,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000000",
+    "gasCostUsd": "0.00",
+    "timestamp": "2025-07-20T13:26:33.962Z"
+  },
+  {
+    "chain": "Ethereum",
+    "gasPrice": 1.544701182,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000032",
+    "gasCostUsd": "0.88",
+    "timestamp": "2025-07-20T13:27:19.029Z"
+  },
+  {
+    "chain": "Polygon",
+    "gasPrice": 26.000000091,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000546",
+    "gasCostUsd": "14.93",
+    "timestamp": "2025-07-20T13:27:19.031Z"
+  },
+  {
+    "chain": "Arbitrum",
+    "gasPrice": 0.01,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000000",
+    "gasCostUsd": "0.00",
+    "timestamp": "2025-07-20T13:27:19.032Z"
+  },
+  {
+    "chain": "Ethereum",
+    "gasPrice": 1.625173692,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000034",
+    "gasCostUsd": "0.93",
+    "timestamp": "2025-07-20T13:30:57.528Z"
+  },
+  {
+    "chain": "Polygon",
+    "gasPrice": 26.000000088,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000546",
+    "gasCostUsd": "14.93",
+    "timestamp": "2025-07-20T13:30:57.531Z"
+  },
+  {
+    "chain": "Arbitrum",
+    "gasPrice": 0.01,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000000",
+    "gasCostUsd": "0.00",
+    "timestamp": "2025-07-20T13:30:57.532Z"
+  },
+  {
+    "chain": "Ethereum",
+    "gasPrice": 1.570995581,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000033",
+    "gasCostUsd": "0.90",
+    "timestamp": "2025-07-20T13:36:28.354Z"
+  },
+  {
+    "chain": "Polygon",
+    "gasPrice": 26.000000086,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000546",
+    "gasCostUsd": "14.93",
+    "timestamp": "2025-07-20T13:36:28.363Z"
+  },
+  {
+    "chain": "Arbitrum",
+    "gasPrice": 0.01,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000000",
+    "gasCostUsd": "0.00",
+    "timestamp": "2025-07-20T13:36:28.368Z"
+  },
+  {
+    "chain": "Ethereum",
+    "gasPrice": 1.557638342,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000033",
+    "gasCostUsd": "0.90",
+    "timestamp": "2025-07-20T13:44:36.909Z"
+  },
+  {
+    "chain": "Polygon",
+    "gasPrice": 26.000000083,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000546",
+    "gasCostUsd": "14.93",
+    "timestamp": "2025-07-20T13:44:36.912Z"
+  },
+  {
+    "chain": "Arbitrum",
+    "gasPrice": 0.01,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000000",
+    "gasCostUsd": "0.00",
+    "timestamp": "2025-07-20T13:44:36.914Z"
+  },
+  {
+    "chain": "Ethereum",
+    "gasPrice": 1.545623729,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000032",
+    "gasCostUsd": "0.88",
+    "timestamp": "2025-07-20T13:45:01.527Z"
+  },
+  {
+    "chain": "Polygon",
+    "gasPrice": 26.000000083,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000546",
+    "gasCostUsd": "14.93",
+    "timestamp": "2025-07-20T13:45:01.528Z"
+  },
+  {
+    "chain": "Arbitrum",
+    "gasPrice": 0.01,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000000",
+    "gasCostUsd": "0.00",
+    "timestamp": "2025-07-20T13:45:01.529Z"
+  },
+  {
+    "chain": "Ethereum",
+    "gasPrice": 1.412299883,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000030",
+    "gasCostUsd": "0.82",
+    "timestamp": "2025-07-20T13:45:45.921Z"
+  },
+  {
+    "chain": "Polygon",
+    "gasPrice": 26.000000083,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000546",
+    "gasCostUsd": "14.93",
+    "timestamp": "2025-07-20T13:45:45.923Z"
+  },
+  {
+    "chain": "Arbitrum",
+    "gasPrice": 0.01,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000000",
+    "gasCostUsd": "0.00",
+    "timestamp": "2025-07-20T13:45:45.925Z"
+  },
+  {
+    "chain": "Ethereum",
+    "gasPrice": 1.525919374,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000032",
+    "gasCostUsd": "0.88",
+    "timestamp": "2025-07-20T13:46:09.365Z"
+  },
+  {
+    "chain": "Polygon",
+    "gasPrice": 26.00000014,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000546",
+    "gasCostUsd": "14.93",
+    "timestamp": "2025-07-20T13:46:09.367Z"
+  },
+  {
+    "chain": "Arbitrum",
+    "gasPrice": 0.01,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000000",
+    "gasCostUsd": "0.00",
+    "timestamp": "2025-07-20T13:46:09.369Z"
+  },
+  {
+    "chain": "Ethereum",
+    "gasPrice": 1.58047375,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000033",
+    "gasCostUsd": "0.90",
+    "timestamp": "2025-07-20T13:56:23.871Z"
+  },
+  {
+    "chain": "Polygon",
+    "gasPrice": 26.000000088,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000546",
+    "gasCostUsd": "14.93",
+    "timestamp": "2025-07-20T13:56:23.875Z"
+  },
+  {
+    "chain": "Arbitrum",
+    "gasPrice": 0.01,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000000",
+    "gasCostUsd": "0.00",
+    "timestamp": "2025-07-20T13:56:23.877Z"
+  },
+  {
+    "chain": "Ethereum",
+    "gasPrice": 1.611012098,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000034",
+    "gasCostUsd": "0.93",
+    "timestamp": "2025-07-20T13:56:28.098Z"
+  },
+  {
+    "chain": "Polygon",
+    "gasPrice": 26.000000088,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000546",
+    "gasCostUsd": "14.93",
+    "timestamp": "2025-07-20T13:56:28.100Z"
+  },
+  {
+    "chain": "Arbitrum",
+    "gasPrice": 0.01,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000000",
+    "gasCostUsd": "0.00",
+    "timestamp": "2025-07-20T13:56:28.101Z"
+  },
+  {
+    "chain": "Ethereum",
+    "gasPrice": 2.410605258,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000051",
+    "gasCostUsd": "1.39",
+    "timestamp": "2025-07-20T14:15:28.624Z"
+  },
+  {
+    "chain": "Polygon",
+    "gasPrice": 26.00000009,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000546",
+    "gasCostUsd": "14.93",
+    "timestamp": "2025-07-20T14:15:28.630Z"
+  },
+  {
+    "chain": "Arbitrum",
+    "gasPrice": 0.030204,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000001",
+    "gasCostUsd": "0.03",
+    "timestamp": "2025-07-20T14:15:28.632Z"
+  },
+  {
+    "chain": "Ethereum",
+    "gasPrice": 2.08294915,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000044",
+    "gasCostUsd": "1.20",
+    "timestamp": "2025-07-20T14:21:31.368Z"
+  },
+  {
+    "chain": "Polygon",
+    "gasPrice": 26.000000088,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000546",
+    "gasCostUsd": "14.93",
+    "timestamp": "2025-07-20T14:21:31.371Z"
+  },
+  {
+    "chain": "Arbitrum",
+    "gasPrice": 0.015967,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000000",
+    "gasCostUsd": "0.00",
+    "timestamp": "2025-07-20T14:21:31.372Z"
+  },
+  {
+    "chain": "Ethereum",
+    "gasPrice": 2.063123546,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000043",
+    "gasCostUsd": "1.18",
+    "timestamp": "2025-07-20T14:21:39.145Z"
+  },
+  {
+    "chain": "Polygon",
+    "gasPrice": 26.000000088,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000546",
+    "gasCostUsd": "14.93",
+    "timestamp": "2025-07-20T14:21:39.147Z"
+  },
+  {
+    "chain": "Arbitrum",
+    "gasPrice": 0.015824,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000000",
+    "gasCostUsd": "0.00",
+    "timestamp": "2025-07-20T14:21:39.148Z"
+  },
+  {
+    "chain": "Ethereum",
+    "gasPrice": 1.783827973,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000037",
+    "gasCostUsd": "1.01",
+    "timestamp": "2025-07-20T14:27:27.394Z"
+  },
+  {
+    "chain": "Polygon",
+    "gasPrice": 26.000000088,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000546",
+    "gasCostUsd": "14.93",
+    "timestamp": "2025-07-20T14:27:27.400Z"
+  },
+  {
+    "chain": "Arbitrum",
+    "gasPrice": 0.01,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000000",
+    "gasCostUsd": "0.00",
+    "timestamp": "2025-07-20T14:27:27.401Z"
+  },
+  {
+    "chain": "Ethereum",
+    "gasPrice": 1.958102924,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000041",
+    "gasCostUsd": "1.12",
+    "timestamp": "2025-07-20T14:33:58.588Z"
+  },
+  {
+    "chain": "Polygon",
+    "gasPrice": 25.751030317,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000541",
+    "gasCostUsd": "14.80",
+    "timestamp": "2025-07-20T14:33:58.595Z"
+  },
+  {
+    "chain": "Arbitrum",
+    "gasPrice": 0.01,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000000",
+    "gasCostUsd": "0.00",
+    "timestamp": "2025-07-20T14:33:58.597Z"
+  },
+  {
+    "chain": "Ethereum",
+    "gasPrice": 1.796205706,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000038",
+    "gasCostUsd": "1.04",
+    "timestamp": "2025-07-20T14:37:20.093Z"
+  },
+  {
+    "chain": "Polygon",
+    "gasPrice": 26.000000083,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000546",
+    "gasCostUsd": "14.93",
+    "timestamp": "2025-07-20T14:37:20.095Z"
+  },
+  {
+    "chain": "Arbitrum",
+    "gasPrice": 0.01,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000000",
+    "gasCostUsd": "0.00",
+    "timestamp": "2025-07-20T14:37:20.097Z"
+  },
+  {
+    "chain": "Ethereum",
+    "gasPrice": 1.887618136,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000040",
+    "gasCostUsd": "1.09",
+    "timestamp": "2025-07-20T14:37:49.042Z"
+  },
+  {
+    "chain": "Polygon",
+    "gasPrice": 26.000000088,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000546",
+    "gasCostUsd": "14.93",
+    "timestamp": "2025-07-20T14:37:49.045Z"
+  },
+  {
+    "chain": "Arbitrum",
+    "gasPrice": 0.01,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000000",
+    "gasCostUsd": "0.00",
+    "timestamp": "2025-07-20T14:37:49.047Z"
+  },
+  {
+    "chain": "Ethereum",
+    "gasPrice": 2.857495086,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000060",
+    "gasCostUsd": "1.64",
+    "timestamp": "2025-07-20T15:05:01.515Z"
+  },
+  {
+    "chain": "Polygon",
+    "gasPrice": 26.000000088,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000546",
+    "gasCostUsd": "14.93",
+    "timestamp": "2025-07-20T15:05:01.522Z"
+  },
+  {
+    "chain": "Arbitrum",
+    "gasPrice": 0.013154,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000000",
+    "gasCostUsd": "0.00",
+    "timestamp": "2025-07-20T15:05:01.526Z"
+  },
+  {
+    "chain": "Ethereum",
+    "gasPrice": 2.714093655,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000057",
+    "gasCostUsd": "1.56",
+    "timestamp": "2025-07-20T15:05:59.695Z"
+  },
+  {
+    "chain": "Polygon",
+    "gasPrice": 26.000000091,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000546",
+    "gasCostUsd": "14.93",
+    "timestamp": "2025-07-20T15:05:59.700Z"
+  },
+  {
+    "chain": "Arbitrum",
+    "gasPrice": 0.011143,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000000",
+    "gasCostUsd": "0.00",
+    "timestamp": "2025-07-20T15:05:59.704Z"
+  },
+  {
+    "chain": "Ethereum",
+    "gasPrice": 2.554183111,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000054",
+    "gasCostUsd": "1.62",
+    "timestamp": "2025-07-20T15:09:04.352Z"
+  },
+  {
+    "chain": "Polygon",
+    "gasPrice": 26.000000088,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000546",
+    "gasCostUsd": "16.43",
+    "timestamp": "2025-07-20T15:09:04.360Z"
+  },
+  {
+    "chain": "Arbitrum",
+    "gasPrice": 0.01,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000000",
+    "gasCostUsd": "0.00",
+    "timestamp": "2025-07-20T15:09:04.365Z"
+  },
+  {
+    "chain": "Ethereum",
+    "gasPrice": 1.993839933,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000042",
+    "gasCostUsd": "1.15",
+    "timestamp": "2025-07-20T15:12:27.971Z"
+  },
+  {
+    "chain": "Polygon",
+    "gasPrice": 26.000000088,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000546",
+    "gasCostUsd": "14.93",
+    "timestamp": "2025-07-20T15:12:27.978Z"
+  },
+  {
+    "chain": "Arbitrum",
+    "gasPrice": 0.01,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000000",
+    "gasCostUsd": "0.00",
+    "timestamp": "2025-07-20T15:12:27.984Z"
+  },
+  {
+    "chain": "Ethereum",
+    "gasPrice": 2.171073795,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000046",
+    "gasCostUsd": "1.26",
+    "timestamp": "2025-07-20T15:12:59.219Z"
+  },
+  {
+    "chain": "Polygon",
+    "gasPrice": 26.000000088,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000546",
+    "gasCostUsd": "14.93",
+    "timestamp": "2025-07-20T15:12:59.225Z"
+  },
+  {
+    "chain": "Arbitrum",
+    "gasPrice": 0.01,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000000",
+    "gasCostUsd": "0.00",
+    "timestamp": "2025-07-20T15:12:59.231Z"
+  },
+  {
+    "chain": "Ethereum",
+    "gasPrice": 2.143264254,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000045",
+    "gasCostUsd": "1.23",
+    "timestamp": "2025-07-20T15:16:04.816Z"
+  },
+  {
+    "chain": "Polygon",
+    "gasPrice": 26.000000088,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000546",
+    "gasCostUsd": "14.93",
+    "timestamp": "2025-07-20T15:16:04.818Z"
+  },
+  {
+    "chain": "Arbitrum",
+    "gasPrice": 0.01,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000000",
+    "gasCostUsd": "0.00",
+    "timestamp": "2025-07-20T15:16:04.819Z"
+  },
+  {
+    "chain": "Ethereum",
+    "gasPrice": 2.008857684,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000042",
+    "gasCostUsd": "1.15",
+    "timestamp": "2025-07-20T15:16:54.488Z"
+  },
+  {
+    "chain": "Polygon",
+    "gasPrice": 26.000000088,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000546",
+    "gasCostUsd": "14.93",
+    "timestamp": "2025-07-20T15:16:54.492Z"
+  },
+  {
+    "chain": "Arbitrum",
+    "gasPrice": 0.01,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000000",
+    "gasCostUsd": "0.00",
+    "timestamp": "2025-07-20T15:16:54.496Z"
+  },
+  {
+    "chain": "Ethereum",
+    "gasPrice": 1.97097057,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000041",
+    "gasCostUsd": "1.12",
+    "timestamp": "2025-07-20T15:18:43.329Z"
+  },
+  {
+    "chain": "Polygon",
+    "gasPrice": 26.000000084,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000546",
+    "gasCostUsd": "14.93",
+    "timestamp": "2025-07-20T15:18:43.333Z"
+  },
+  {
+    "chain": "Arbitrum",
+    "gasPrice": 0.01,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000000",
+    "gasCostUsd": "0.00",
+    "timestamp": "2025-07-20T15:18:43.335Z"
+  },
+  {
+    "chain": "Ethereum",
+    "gasPrice": 1.971112503,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000041",
+    "gasCostUsd": "1.12",
+    "timestamp": "2025-07-20T15:19:16.677Z"
+  },
+  {
+    "chain": "Polygon",
+    "gasPrice": 26.000000088,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000546",
+    "gasCostUsd": "14.93",
+    "timestamp": "2025-07-20T15:19:16.682Z"
+  },
+  {
+    "chain": "Arbitrum",
+    "gasPrice": 0.01,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000000",
+    "gasCostUsd": "0.00",
+    "timestamp": "2025-07-20T15:19:16.687Z"
+  },
+  {
+    "chain": "Ethereum",
+    "gasPrice": 2.308850709,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000048",
+    "gasCostUsd": "1.31",
+    "timestamp": "2025-07-20T15:27:22.686Z"
+  },
+  {
+    "chain": "Polygon",
+    "gasPrice": 26.000000149,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000546",
+    "gasCostUsd": "14.93",
+    "timestamp": "2025-07-20T15:27:22.694Z"
+  },
+  {
+    "chain": "Arbitrum",
+    "gasPrice": 0.01,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000000",
+    "gasCostUsd": "0.00",
+    "timestamp": "2025-07-20T15:27:22.698Z"
+  },
+  {
+    "chain": "Ethereum",
+    "gasPrice": 2.287890913,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000048",
+    "gasCostUsd": "1.31",
+    "timestamp": "2025-07-20T15:28:08.546Z"
+  },
+  {
+    "chain": "Polygon",
+    "gasPrice": 26.000000148,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000546",
+    "gasCostUsd": "14.93",
+    "timestamp": "2025-07-20T15:28:08.548Z"
+  },
+  {
+    "chain": "Arbitrum",
+    "gasPrice": 0.01,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000000",
+    "gasCostUsd": "0.00",
+    "timestamp": "2025-07-20T15:28:08.551Z"
+  },
+  {
+    "chain": "Ethereum",
+    "gasPrice": 2.358872334,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000050",
+    "gasCostUsd": "1.37",
+    "timestamp": "2025-07-20T15:33:05.725Z"
+  },
+  {
+    "chain": "Polygon",
+    "gasPrice": 26.000000088,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000546",
+    "gasCostUsd": "14.93",
+    "timestamp": "2025-07-20T15:33:05.735Z"
+  },
+  {
+    "chain": "Arbitrum",
+    "gasPrice": 0.012774,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000000",
+    "gasCostUsd": "0.00",
+    "timestamp": "2025-07-20T15:33:05.739Z"
+  },
+  {
+    "chain": "Ethereum",
+    "gasPrice": 2.332361798,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000049",
+    "gasCostUsd": "1.34",
+    "timestamp": "2025-07-20T15:33:32.028Z"
+  },
+  {
+    "chain": "Polygon",
+    "gasPrice": 26.000000088,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000546",
+    "gasCostUsd": "14.93",
+    "timestamp": "2025-07-20T15:33:32.033Z"
+  },
+  {
+    "chain": "Arbitrum",
+    "gasPrice": 0.013778,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000000",
+    "gasCostUsd": "0.00",
+    "timestamp": "2025-07-20T15:33:32.038Z"
+  },
+  {
+    "chain": "Ethereum",
+    "gasPrice": 2.35707368,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000049",
+    "gasCostUsd": "1.34",
+    "timestamp": "2025-07-20T15:34:34.930Z"
+  },
+  {
+    "chain": "Polygon",
+    "gasPrice": 26.00000009,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000546",
+    "gasCostUsd": "14.93",
+    "timestamp": "2025-07-20T15:34:34.931Z"
+  },
+  {
+    "chain": "Arbitrum",
+    "gasPrice": 0.03356,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000001",
+    "gasCostUsd": "0.03",
+    "timestamp": "2025-07-20T15:34:34.932Z"
+  },
+  {
+    "chain": "Ethereum",
+    "gasPrice": 3.487863501,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000073",
+    "gasCostUsd": "2.00",
+    "timestamp": "2025-07-20T15:54:51.036Z"
+  },
+  {
+    "chain": "Polygon",
+    "gasPrice": 26.000000088,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000546",
+    "gasCostUsd": "14.93",
+    "timestamp": "2025-07-20T15:54:51.040Z"
+  },
+  {
+    "chain": "Arbitrum",
+    "gasPrice": 0.02047,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000000",
+    "gasCostUsd": "0.00",
+    "timestamp": "2025-07-20T15:54:51.042Z"
+  },
+  {
+    "chain": "Ethereum",
+    "gasPrice": 3.303148283,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000069",
+    "gasCostUsd": "1.89",
+    "timestamp": "2025-07-20T15:56:13.716Z"
+  },
+  {
+    "chain": "Polygon",
+    "gasPrice": 26.000000088,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000546",
+    "gasCostUsd": "14.93",
+    "timestamp": "2025-07-20T15:56:13.717Z"
+  },
+  {
+    "chain": "Arbitrum",
+    "gasPrice": 0.020788,
+    "gasLimit": 21000,
+    "gasCostEth": "0.000000",
+    "gasCostUsd": "0.00",
+    "timestamp": "2025-07-20T15:56:13.718Z"
+  }
+]
